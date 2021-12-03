@@ -1,0 +1,26 @@
+[
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-std=c++17",
+            "-stdlib=libc++",
+            "-g",
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Werror",
+            "-Wno-unused-parameter",
+            "-pedantic",
+            "-I",
+            "src/",
+            "-I",
+            "includes/",
+            "-o",
+            "bin/main.out",
+            "src/main.cc"
+        ],
+        "directory": "/vagrant/src/mps/database",
+        "file": "src/main.cc"
+    }
+]
